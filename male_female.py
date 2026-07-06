@@ -23,7 +23,7 @@ st.set_page_config(
 # -------------------------
 # Load Model
 # -------------------------
-model = joblib.load("/male_female.pkl")
+model = joblib.load("male_female.pkl")
 
 IMG_SIZE = 64
 
